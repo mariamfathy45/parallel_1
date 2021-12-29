@@ -7,12 +7,12 @@ import java.io.InputStreamReader;
 import java.net.ServerSocket;
 import java.net.Socket;
 public class server {
-    
+    // mariam hena
     public static void main(String[] args)throws IOException //throwing an exception is essiential for handling possible errors
     {
         String clientSentence; 
         String capitalizedSentence; 
-
+ 
               //create a serverSocket object that handles the port number for the application InputStreamReader
               //any port number would do fine as long as it&#039;s used same port number at the clientServer side 
               ServerSocket s = new ServerSocket(9999); 
